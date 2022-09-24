@@ -1,0 +1,15 @@
+CODE :
+import random
+import time
+try:
+while(True):
+hum=random.randrange(200)
+time.sleep(random.randrange(2))
+print(hum)
+if(hum<130):
+pass
+else:
+print("Temperature is high",hum)
+break
+except:
+pass
